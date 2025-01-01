@@ -66,6 +66,8 @@ sim.status()
 
 If you want to use the C version of REBOUND simply copy and paste this line into your terminal (it won't do anything bad, we promise):
 
+_# 🚧🚧 note: if running in a GitHub Codespace try `pushd examples/shearing_sheet && OPT=-pthread make && ./rebound` instead ( https://github.com/hannorein/rebound/issues/754#issuecomment-1981051074 ) 🚧🚧_
+
 ```bash
 git clone https://github.com/hannorein/rebound && cd rebound/examples/shearing_sheet && make && ./rebound
 ```
